@@ -1,0 +1,28 @@
+{
+  "name": "freecodecamp-projects",
+  "version": "1.0.0",
+  "description": "Projects I have done during freeCodeCamp certifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files (x86)\\Google\\Chrome Dev\\Application\\chrome.exe\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokibul630/freeCodeCamp-Projects.git"
+  },
+  "keywords": [
+    "freeCodeCamp"
+  ],
+  "author": "Rokibul Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokibul630/freeCodeCamp-Projects/issues"
+  },
+  "homepage": "https://github.com/Rokibul630/freeCodeCamp-Projects#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "run-script-os": "^1.0.7"
+  }
+}
